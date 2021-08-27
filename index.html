@@ -1,0 +1,807 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body dir="ltr" onload="initClock()">
+    <header>
+        <section class="social" data-scroll-index="0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-4">
+                        <div class="item-social-icon">
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-telegram-plane"></i></a>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-4 text-center">
+                        <div class="item-clock">
+                            <div class="tiem">
+                                <span id="hour">00</span>:
+                                <span id="minutes">00</span>:
+                                <span id="seconds">00</span>
+                                <span id="period">Am</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-4">
+                        <div class="lang">
+                            <p>En</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="navv">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+
+                        <div class="navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto mr-5">
+                                <li class="nav-item mt-2">
+                                    <i class="fas fa-search"></i>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-scroll-nav="7">اتصل بنا <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-scroll-nav="7">من نحن</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-scroll-nav="5">ما يميزنا</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-scroll-nav="4">شركاؤنا</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-scroll-nav="3">خدماتنا</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <!-- Default dropleft button -->
+                                    <div class="btn-group dropleft">
+                                        <button type="button" class="btn dropdown-toggle"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-sort-down"></i>معرض الأعمال
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">المونتاج <i
+                                                    class="fas fa-chevron-left"></i></a>
+                                            <a class="dropdown-item" href="#">خدمات التغطية البث الفضائي <i
+                                                    class="fas fa-chevron-left"></i></a>
+                                            <a class="dropdown-item" href="#">التدريب <i
+                                                    class="fas fa-chevron-left"></i></a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-scroll-nav="1">الأخبار</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="" data-scroll-nav="0">الرئسية</a>
+                                </li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="navbar-brand m-0" href="#" data-scroll-nav="0"><img src="images/Group 47.png" alt=""></a>
+
+                </div>
+            </nav>
+        </section>
+
+        <section class="nows my-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 pr-0 col-10">
+                        <div class="item-nows-text">
+                            <marquee behavior="" direction="right" onmouseout="this.start()" onmouseover="this.stop()">
+                                <p>شاهد- الاحتلال یعتدي</p>
+                            </marquee>
+                        </div>
+                    </div>
+                    <div class="col-md-2 pl-0 col-2">
+                        <div class="item-nows">
+                            <h2>الأخبار</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="breaking-news">
+            <div class="container">
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-touch="false"
+                    data-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h1>عاجل</h1>
+                        </div>
+                        <div class="carousel-item">
+                            <h1>عاجل</h1>
+                        </div>
+                        <div class="carousel-item">
+                            <h1>عاجل</h1>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControlsNoTouching" role="button"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControlsNoTouching" role="button"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <main>
+        <section class="sec-hero my-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-3">
+                        <div class="item-text-hero">
+                            <i class="far fa-times-circle"></i>
+                            <img src="images/Group 46.png" alt="">
+                            <h3>بـث مبـاشـر</h3>
+                            <p class="mb-2">بث مباشر عن موضوع الثورات العربية وتراجع القضية
+                                الفلسطينية</p>
+                            <p>تقرير | الثورات العربية و تراجع القضية الفلسطينية</p>
+                            <p>إعداد | هاجر حرب "مراسلة قناة المسيرة الفضائية</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="item-v">
+                            <iframe src="https://www.youtube.com/embed/Ua5q9zh5ZuA" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-2 my-5 ">
+            <div class="container">
+                <div class="owl-carousel sec-2-carousel">
+                    <div class="row position-relative">
+                        <div class="col-md-6 col-6">
+                            <div class="item-icon-sec-2 vidoeo-play-btn">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <i class="far fa-play-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="item-text-sec-2">
+                                <h2>
+                                    <span>أهلا بكم في شركة بوست بال</span>
+                                    <br>
+                                    رؤيتنا أن نكون خيارك المفضل
+                                    في الخدمات الإعلامية
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-6">
+                            <div class="item-icon-sec-2 vidoeo-play-btn">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <div class="item-text-sec-2">
+                                <h2>
+                                    <span>أهلا بكم في شركة بوست بال</span>
+                                    <br>
+                                    رؤيتنا أن نكون خيارك المفضل
+                                    في الخدمات الإعلامية
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="services my-5 py-5" data-scroll-index="3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-sec-titel">
+                            <h2>خدماتنا</h2>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="owl-carousel services-carousel">
+                        <div class="item-box-services">
+                            <div class="item-img-services">
+                                <img src="images/serv-4.png" alt="">
+                            </div>
+                            <h3>الموشن جرافيك</h3>
+                            <p>لرسوم التوضيحية المتحركة، وهي عبارة عن
+                                عرض متحرك للرسوم بهدف توضيح وتبسيط
+                                المعلومات</p>
+                        </div>
+
+                        <div class="item-box-services">
+                            <div class="item-img-services">
+                                <img src="images/serv-1.png" alt="">
+                            </div>
+                            <h3>البث الفضائي</h3>
+                            <p>هي الطريقة التي تستخدمها محطات التلفاز
+                                ،من أجل بث برامجها لتغطية مساحات كبيرة
+                                حيث تقوم المحطات بإرسال الأمواج للأقمار
+                                الصناعية</p>
+                        </div>
+                        <div class="item-box-services">
+                            <div class="item-img-services">
+                                <img src="images/serv-3.png" alt="">
+                            </div>
+                            <h3>التصوير والإنتاج الفني</h3>
+                            <p>التصوير الاحترافي ليس مجرد كاميرا و فلاشات
+                                بل قائم على دراسات و علم و خبرة من تجارب
+                                و ممارسة و هو احد الفنون البصرية المميزة
+                                والتي تتسم بالحس الإبداعي</p>
+                        </div>
+                        <div class="item-box-services">
+                            <div class="item-img-services">
+                                <img src="images/serv-2.png"  alt="">
+                            </div>
+                            <h3>البث عبر الانترنت</h3>
+                            <p>ربط البث التلفزيوني عبر الانترنت من خلال
+                                جهاز التوجيه. التلفزيون التفاعلي لديه عدد
+                                من المزايا التي لا يمكن إنكارها. من بينها
+                                عدد كبير من القنوات التلفزيونية</p>
+                        </div>
+                        <div class="item-box-services">
+                            <div class="item-img-services">
+                                <img src="images/serv-4.png"  alt="">
+                            </div>
+                            <h3>الموشن جرافيك</h3>
+                            <p>لرسوم التوضيحية المتحركة، وهي عبارة عن
+                                عرض متحرك للرسوم بهدف توضيح وتبسيط
+                                المعلومات</p>
+                        </div>
+                        <div class="item-box-services">
+                            <div class="item-img-services">
+                                <img src="images/serv-3.png" alt="">
+                            </div>
+                            <h3>التصوير والإنتاج الفني</h3>
+                            <p>التصوير الاحترافي ليس مجرد كاميرا و فلاشات
+                                بل قائم على دراسات و علم و خبرة من تجارب
+                                و ممارسة و هو احد الفنون البصرية المميزة
+                                والتي تتسم بالحس الإبداعي</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-news  py-5" data-scroll-index="1">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-8">
+                        <div class="item-sec-titel-center">
+                            <p>ننشر اخبارنا للعالم العربي بالإضافة الي أقوي الفیدیوهات والصور</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-4">
+                        <div class="item-sec-titel">
+                            <h2>أخبارنا</h2>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="item-box-our-news">
+                            <a href="">
+                                <div class="item-img-our-news">
+                                    <img src="images/news-3.png" alt="">
+                                </div>
+                                <h3>إعلام الداخلية يزور سكرين والمنارة
+                                    وبال ميديا وشهاب وقناتي الميادين
+                                    والغد العربي</h3>
+                                <p>زار وفد من المكتب الإعلامي في وزارة الداخلية
+                                    الفلسطينية الاحد مكاتب وكالة سكرين ووكالة المنارة
+                                    ووكالة بال ميديا ووكالة شهاب وقناتي الميادين والغد
+                                    العربي</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-box-our-news">
+                            <a href="">
+                                <div class="item-img-our-news">
+                                    <img src="images/news-2.png" alt="">
+                                </div>
+                                <h3>وفد من إعلام حماس يزور وكالة
+                                    المنارة بغزة</h3>
+                                <p class="mt">زار وفد من العلاقات الإعلامية التابع للدائرة الإعلامية في
+                                    حركة المقاومة الإسلامية "حماس" وكالة المنارة للإعلام
+                                    لتهنئتهم بمناسبة انتقالهم للمقر الجديد في مدينة غزة</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-box-our-news">
+                            <a href="">
+                                <div class="item-img-our-news">
+                                    <img src="images/news-1.png" alt="">
+                                </div>
+                                <h3>وزارة الإعلام تهنئ وكالة المنارة
+                                    للإعلام بمقرها الجديد</h3>
+                                <p>قدمت وزارة الإعلام-المكتب الإعلامي الحكومي، التهنئة
+                                    لشركة المنارة للإعلام والإنتاج بمناسبة انتقالها لمقرها
+                                    الجديد بمدينة غزة</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="advertising">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-5">
+                        <div class="item-advertisement">
+                            <p>اعلان</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="item-advertisement">
+                            <p>اعلان</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <section class="partners py-5 my-5" data-scroll-index="4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-8">
+                        <div class="item-sec-titel-center">
+                            <p>نتمیز بشبکة علاقات وشرکاء على المستويين المحلي والعالمي</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-4">
+                        <div class="item-sec-titel">
+                            <h2>شركاؤنا</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="owl-carousel partners-carousel">
+                            <div class="item-img-partners">
+                                <span type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                                    <img src="images/JyKDZ4XdBlbAxzaC4HQUm0qfrYLhN81wx4GiWcYg.png" alt="">
+                                </span>
+                            </div>
+                            <div class="item-img-partners">
+                                <span type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                                    <img src="images/KSL7q.png" alt="">
+                                </span>
+                            </div>
+                            <div class="item-img-partners">
+                                <span type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                                    <img src="images/قناة_العالم.png" alt="">
+                                </span>
+                            </div>
+                            <div class="item-img-partners">
+                                <span type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                                    <img src="images/1200px-FRANCE_24_logo.svg.png" alt="">
+                                </span>
+                            </div>
+                            <div class="item-img-partners">
+                                <span type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                                    <img src="images/شعار_سي_إن_بي_سي_عربية.png">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-5 py-5 business" data-scroll-index="2">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+
+                            </div>
+                            <div class="col-md-5">
+                                <div class="item-sec-titel">
+                                    <h2>معرض الأعمال</h2>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 p-0 col-6">
+                            <div class="item-box1-business">
+                                <div class="box-text">
+                                    <img src="images/noun_training_2895876.png" class="effect" alt="">
+                                    <h3>التدریب</h3>
+                                    <p>يعد التدريب من أهم محاور تطوير العمل إذ أنه كفيل بتزويد العاملين بالمهارات اللازمة لتحسين أداء أعمالهم والرقي بالمستوى العام للجهات التي يعملون فيها</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-0 col-6">
+                            <div class="item--img-business">
+                                <img src="images/firmbee-com-gcsNOsPEXfs-unsplash.png" class="w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-8 p-0 col-6">
+                            <div class="item-box2-business">
+                                <div class="box-text">
+                                    <img src="images/noun_Broadcasting satellite_1615366.png" class="effect" alt="">
+                                    <h3>
+                                        خدمات التغطیة
+                                        <br>
+                                        البث الفضائي
+                                    </h3>
+                                    <p>نقدم خدمات البث الفضائي عبر عربة نقل فضائي مجهزة بأحدث المعدات التقنية والفنية  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-0 col-6">
+                            <div class="item--img-business">
+                                <img src="images/jesus-loves-austin-vumIf0YbO4k-unsplash.png" class="w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-8 p-0 col-6">
+                            <div class="item-box3-business">
+                                <div class="box-text">
+                                    <img src="images/noun_Wireframe video_444303.png" class="effect" alt="">
+                                    <h3 class="mt-business">المونتاج</h3>
+                                    <p>المونتاج، ويسمى أيضاً التركيب،أوالتحرير
+                                        ،هو إعادة ترتيب المشاهد، واختيار أفضلها
+                                        وحذف غير الجيدة منها، ويعمل على المونتاج
+                                        شخص متخصص في ذلك، وأحياناً يتعاون معه
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-0 col-6">
+                            <div class="item--img-business">
+                                <img src="images/jakob-owens-EWaoo-i7qIs-unsplash.png" class="w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="advertising-2 my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="item-advertising-2">
+                            <p>اعلان</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages my-5 py-5" data-scroll-index="5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-sec-titel">
+                            <h2>ما يميزنا</h2>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="owl-carousel advantages-carousel">
+                            <div class="item-img-advantages">
+                                <div class="item-img1-advantages">
+                                    <p>
+                                        جوائز
+                                        <br>
+                                        عالمیة ومحلیة
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-img-advantages">
+                                <div class="item-img2-advantages">
+                                    <p>
+                                        أجهزة
+                                        <br>
+                                        حدیثة ومتطورة
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-img-advantages">
+                                <div class="item-img3-advantages">
+                                    <p>مرافق
+                                        <br>
+                                        مریحة وآمنة
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-img-advantages">
+                                <div class="item-img1-advantages">
+                                    <p>
+                                        جوائز
+                                        <br>
+                                        عالمیة ومحلیة
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-img-advantages">
+                                <div class="item-img2-advantages">
+                                    <p>
+                                        أجهزة
+                                        <br>
+                                        حدیثة ومتطورة
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-img-advantages">
+                                <div class="item-img3-advantages">
+                                    <p>مرافق
+                                        <br>
+                                        مریحة وآمنة
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item-text-advantages">
+                            <h3>برامجنا وخدماتنا تمثل
+                                المستقبل فهی أنطلاقة
+                                عربیة غیر مسبوقة</h3>
+                            <span></span>
+                            <span></span>
+                            <p>نقدم خدمات ومنتجات صُممت
+                                خصيصـًا لإثراء عملك بالخبرة
+                                المناسبة في مجال صناعة
+                                الأفلام والتقارير والبث الفضائي
+                                والجودة والجديرة بالاعتماد عليها</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        
+                    </div>
+                    <div class="col-md-5">
+                        <div class="item-sec-titel">
+                            <h2>فريق العمل</h2>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="owl-carousel featurse-carousel">
+                        <div class="featurse-item ">
+                            <div class="img-team ">
+                                <img src="images/157496047_827085161354664_2363816871681179583_n.png" alt="">
+                            </div>
+                            <h3>مصطفى حجازي</h3>
+                            <span>المدير التنفيذي</span>
+                        </div>
+
+                        <div class="featurse-item ">
+                            <div class="img-team ">
+                                <img src="images/Screenshot_1.png" alt="">
+                            </div>
+                            <h3>محمد ابو عزيز</h3>
+                            <span>مدیر الاستدیوهات</span>
+                        </div>
+                        <div class="featurse-item ">
+                            <div class="img-team ">
+                                <img src="images/thumb-1.png" alt="">
+                            </div>
+                            <h3>أحمد اللداوي</h3>
+                            <span>المدیر العام</span>
+                        </div>
+                        <div class="featurse-item ">
+                            <div class="img-team">
+                                <img src="images/Mask Group 1.png" alt="">
+                            </div>
+                            <h3>محمد عشو</h3>
+                            <span>قسم الإنتاج التفزیوني</span>
+                        </div>
+                        <div class="featurse-item ">
+                            <div class="img-team ">
+                                <img src="images/Screenshot_1.png" alt="">
+                            </div>
+                            <h3>محمد ابو عزيز</h3>
+                            <span>مدیر الاستدیوهات</span>
+                        </div>
+                        <div class="featurse-item ">
+                            <div class="img-team ">
+                                <img src="images/157496047_827085161354664_2363816871681179583_n.png" alt="">
+                            </div>
+                            <h3>مصطفى حجازي</h3>
+                            <span>المدير التنفيذي</span>
+                        </div>
+                        <div class="featurse-item ">
+                            <div class="img-team ">
+                                <img src="images/thumb-1.png" alt="">
+                            </div>
+                            <h3>أحمد اللداوي</h3>
+                            <span>لمدیر العام</span>
+                        </div>
+                        <div class="featurse-item ">
+                            <div class="img-team ">
+                                <img src="images/Mask Group 1.png" alt="">
+                            </div>
+                            <h3>محمد عشو</h3>
+                            <span>قسم الإنتاج التفزیوني</span>
+                        </div>
+                        <div class="featurse-item ">
+                            <div class="img-team ">
+                                <img src="images/157496047_827085161354664_2363816871681179583_n.png" alt="">
+                            </div>
+                            <h3>مصطفى حجازي</h3>
+                            <span>المدير التنفيذي</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="top">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+
+        <section class="spinner preloader">
+            <div class="spinner-grow" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </section>
+    </main>
+    <footer class="mt-5" data-scroll-index="7">
+        <section class="footer">
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-md-6">
+                        <div class="item-footer-1">
+                            <ul>
+                                <li>غزة - الثلاثيني - مفترق الصناعة - عمارة اللد - الطابق السادس <i
+                                        class="fas fa-map-marker-alt"></i></li>
+                                <li><span>0097082862211</span><i class="fas fa-phone-alt"></i></li>
+                                <li><span>0097082885769 </span><i class="fas fa-mobile-alt"></i></li>
+                                <li><span>info@manara.ps </span><i class="far fa-envelope"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="item-footer-2">
+                            <h2>شرکة بوست بال</h2>
+                            <p>
+                                شركة بوست بال خدمات إعلامية فلسطينية
+                                <br>
+                                ،مقرها مدينة غزة، تتميز بخبرات إعلامية متنوعة
+                                <br>
+                                تعمل على تقديم خدمات البث الفضائي والرقمي
+                                <br>
+                                والتغطيات الإعلامية بالإضافة للإنتاج التلفزيوني
+                                <br>
+                                والإذاعي بأفضل جودة وتكاليف مناسبة
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-5">
+                        <div class="item-page-footer">
+                            <ul>
+                                <li><a href="" data-scroll-nav="7">اتصل بنا</a></li>
+                                <li class="bord" data-scroll-nav="7"><a href="">من نحن</a></li>
+                                <li class="bord" data-scroll-nav="3"><a href="">خدماتنا</a></li>
+                                <li class="bord" data-scroll-nav="2"><a href="">معرض الأعمال</a></li>
+                                <li class="bord" data-scroll-nav="1"><a href="">الأخبار</a></li>
+                                <li class="bord" data-scroll-nav="0"><a href="">الرئیسیة</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-5">
+                        <div class="item-social-icon-footer">
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-telegram-plane"></i></a>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-whatsapp"></i></a>
+                            <a href=""><i class="fab fa-tiktok"></i></a>
+                            <a href=""><i class="fas fa-rss"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6 col-6">
+                        <div class="policy">
+                            <p>PostPal Company © 2021. Privacy Policy</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-6">
+                        <div class="wasl-img">
+                            <a href=""><img src="images/Group 23.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
+
