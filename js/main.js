@@ -71,7 +71,7 @@ $('.advantages-carousel').owlCarousel({
     responsiveClass:true,
     responsive:{
         0:{
-            items:1,
+            items:2,
         },
         600:{
             items:2,
@@ -172,33 +172,39 @@ $(window).on("load",function(){
 
 
 
-function updateClock(){
-    var now=new Date();
-    var h      = now.getHours(),
-        m      = now.getMinutes(),
-        s      = now.getSeconds(),
-        pe     = "AM";
-
-        if(h>12){
-            h=h-12;
-            pe="PM";
-        }
-
-        Number.prototype.pad=function (digits) {
-            for(var n=this.toString();n.length<digits;n=0+n);
-            return n;
-        }
-    var ids=["hour","minutes","seconds","period"];
-    var values=[h.pad(2),m.pad(2),s.pad(2),pe];
-
-    for (let index = 0; index < ids.length; index++) {
-        document.getElementById(ids[index]).firstChild.nodeValue=values[index];
-        
-    }
-
-}
-
 function initClock(){
     updateClock();
     window.setInterval("updateClock()",1);
 }
+
+$('.promo-inner .close').on('click', function () {
+
+    $('.promo-inner ').slideUp('fast', function () {
+        $('.promo-inner ').remove();
+    });
+
+});
+
+$('.sec-hero .close').on('click', function () {
+
+    $('.sec-hero ').slideUp('fast', function () {
+        $('.sec-hero ').remove();
+    });
+
+});
+
+
+
+
+if ($('.main-slider').length !== 0) {
+    $('.main-slider .owl-carousel').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: false,
+        dots: true,
+        rtl: true,
+        lazyLoad: true,
+        items: 1
+    })
+}
+

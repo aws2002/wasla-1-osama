@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/fancybox.css">
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -25,27 +26,35 @@
         <section class="social" data-scroll-index="0">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-4">
+                    <div class="col-md-6 col-6">
                         <div class="item-social-icon">
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-youtube"></i></a>
-                            <a href=""><i class="fab fa-telegram-plane"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-4 text-center">
-                        <div class="item-clock">
-                            <div class="tiem">
-                                <span id="hour">00</span>:
-                                <span id="minutes">00</span>:
-                                <span id="seconds">00</span>
-                                <span id="period">Am</span>
+                            <div class="icon">
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+
+                            <div class="icon">
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+
+                            <div class="icon">
+                                <a href=""><i class="fab fa-telegram-plane"></i></a>
+                            </div>
+
+                            <div class="icon">
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </div>
+
+                            <div class="icon">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                            </div>
+
+                            <div class="icon">
+                                <a href=""><i class="fab fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-4">
+                    
+                    <div class="col-md-6 col-6">
                         <div class="lang">
                             <p>En</p>
                         </div>
@@ -64,9 +73,11 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
 
                         <div class="navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ml-auto mr-5">
-                                <li class="nav-item mt-2">
-                                    <i class="fas fa-search"></i>
+                            <ul class="navbar-nav mr-auto ">
+                                <li class="nav-item  border-0">
+                                    <form id="demo-2">
+                                        <input type="search" placeholder="Search">
+                                    </form>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#" data-scroll-nav="7">اتصل بنا <span
@@ -87,10 +98,10 @@
                                 <li class="nav-item dropdown">
                                     <!-- Default dropleft button -->
                                     <div class="btn-group dropleft">
-                                        <button type="button" class="btn dropdown-toggle"
+                                        <span type="button" class="btn dropdown-toggle"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <i class="fas fa-sort-down"></i>معرض الأعمال
-                                        </button>
+                                        </span>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                             <a class="dropdown-item" href="#">المونتاج <i
                                                     class="fas fa-chevron-left"></i></a>
@@ -139,7 +150,9 @@
 
         <section class="breaking-news">
             <div class="container">
-                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-touch="false"
+                <div class="row">
+                    <div class="col-md-10 pr-0 col-10">
+                        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-touch="false"
                     data-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -163,6 +176,13 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+                    </div>
+                    <div class="col-md-2  pl-0 col-2">
+                        <div class="item-span-fast-nwos">
+                            <span>عاجل</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -173,7 +193,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-6 mb-3">
                         <div class="item-text-hero">
-                            <i class="far fa-times-circle"></i>
+                            <i class="far fa-times-circle close"></i>
                             <img src="images/Group 46.png" alt="">
                             <h3>بـث مبـاشـر</h3>
                             <p class="mb-2">بث مباشر عن موضوع الثورات العربية وتراجع القضية
@@ -184,17 +204,22 @@
                     </div>
                     <div class="col-md-6">
                         <div class="item-v">
-                            <iframe src="https://www.youtube.com/embed/Ua5q9zh5ZuA" title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                            <a class="d-block play-btn text-left" data-fancybox="Slider" data-src="https://www.youtube.com/watch?v=z2X2HaTvkl8" href="javascript:;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="153" height="153" viewBox="0 0 153 153">
+                                    <g id="play-outline" transform="translate(-2.25 -2.25)">
+                                        <path id="Path_1931" data-name="Path 1931" d="M78.75,13.179A65.571,65.571,0,1,1,13.179,78.75,65.571,65.571,0,0,1,78.75,13.179m0-10.929a76.5,76.5,0,1,0,76.5,76.5A76.5,76.5,0,0,0,78.75,2.25Z" transform="translate(0 0)" fill="#fff"/>
+                                        <path id="Path_1932" data-name="Path 1932" d="M17.839,86.6a5.47,5.47,0,0,1-5.464-5.464V15.565a5.409,5.409,0,0,1,8.141-4.7L80.623,43.649a5.464,5.464,0,0,1,0,9.617L20.516,86.052a5.464,5.464,0,0,1-2.676.549ZM23.3,24.745V71.956L66.527,48.351Z" transform="translate(39.054 30.399)" fill="#fff"/>
+                                    </g>
+                                </svg>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="sec-2 my-5 ">
+        
+        <!-- <section class="sec-2 my-5">
             <div class="container">
                 <div class="owl-carousel sec-2-carousel">
                     <div class="row position-relative">
@@ -236,7 +261,73 @@
                 </div>
 
             </div>
+        </section> -->
+
+        <section class="main-slider">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <article class="slider-item">
+                        <figure class="default-img">
+                            <img data-src="images/slider.png" alt="" title="" class="owl-lazy cover-img" />
+                            <figcaption>
+                                <div class="container">
+                                    <div class="row justify-content-between">
+                                        <div class="col-md-8">
+                                            <h2>أهلا بكم في شركة بوست بال</h2>
+                                            <h1>رؤيتنا أن نكون خيارك المفضل
+                                                في الخدمات الإعلامية </h1>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a class="d-block play-btn text-left" data-fancybox="Slider" data-src="https://www.youtube.com/watch?v=atvS40lOlmc&list=RDatvS40lOlmc&start_radio=1" href="javascript:;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="153" height="153" viewBox="0 0 153 153">
+                                                    <g id="play-outline" transform="translate(-2.25 -2.25)">
+                                                        <path id="Path_1931" data-name="Path 1931" d="M78.75,13.179A65.571,65.571,0,1,1,13.179,78.75,65.571,65.571,0,0,1,78.75,13.179m0-10.929a76.5,76.5,0,1,0,76.5,76.5A76.5,76.5,0,0,0,78.75,2.25Z" transform="translate(0 0)" fill="#fff"/>
+                                                        <path id="Path_1932" data-name="Path 1932" d="M17.839,86.6a5.47,5.47,0,0,1-5.464-5.464V15.565a5.409,5.409,0,0,1,8.141-4.7L80.623,43.649a5.464,5.464,0,0,1,0,9.617L20.516,86.052a5.464,5.464,0,0,1-2.676.549ZM23.3,24.745V71.956L66.527,48.351Z" transform="translate(39.054 30.399)" fill="#fff"/>
+                                                    </g>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+                <div class="item">
+                    <article class="slider-item">
+                        <figure class="default-img">
+                            <img data-src="images/slider.png" alt="" title="" class="owl-lazy cover-img" />
+                            <figcaption>
+                                <div class="container">
+                                    <div class="row justify-content-between">
+                                        <div class="col-md-8">
+                                            <h2>أهلا بكم في شركة بوست بال</h2>
+                                            <h1>رؤيتنا أن نكون خيارك المفضل
+                                                في الخدمات الإعلامية </h1>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a class="d-block play-btn text-left" data-fancybox="Slider" data-src="https://www.youtube.com/watch?v=atvS40lOlmc&list=RDatvS40lOlmc&start_radio=1" href="javascript:;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="153" height="153" viewBox="0 0 153 153">
+                                                    <g id="play-outline" transform="translate(-2.25 -2.25)">
+                                                        <path id="Path_1931" data-name="Path 1931" d="M78.75,13.179A65.571,65.571,0,1,1,13.179,78.75,65.571,65.571,0,0,1,78.75,13.179m0-10.929a76.5,76.5,0,1,0,76.5,76.5A76.5,76.5,0,0,0,78.75,2.25Z" transform="translate(0 0)" fill="#fff"/>
+                                                        <path id="Path_1932" data-name="Path 1932" d="M17.839,86.6a5.47,5.47,0,0,1-5.464-5.464V15.565a5.409,5.409,0,0,1,8.141-4.7L80.623,43.649a5.464,5.464,0,0,1,0,9.617L20.516,86.052a5.464,5.464,0,0,1-2.676.549ZM23.3,24.745V71.956L66.527,48.351Z" transform="translate(39.054 30.399)" fill="#fff"/>
+                                                    </g>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+    
+            </div>
+    
         </section>
+
+
+
 
         <section class="services my-5 py-5" data-scroll-index="3">
             <div class="container">
@@ -416,12 +507,12 @@
                         <div class="owl-carousel partners-carousel">
                             <div class="item-img-partners">
                                 <span type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-                                    <img src="images/JyKDZ4XdBlbAxzaC4HQUm0qfrYLhN81wx4GiWcYg.png" alt="">
+                                    <img src="images/kisspng-cnbc-arabiya-logo-of-nbc-business-5b399a99d48a53.2279454915305017858706-removebg-preview.png" alt="">
                                 </span>
                             </div>
                             <div class="item-img-partners">
                                 <span type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-                                    <img src="images/KSL7q.png" alt="">
+                                    <img src="images/JyKDZ4XdBlbAxzaC4HQUm0qfrYLhN81wx4GiWcYg-removebg-preview.png" alt="">
                                 </span>
                             </div>
                             <div class="item-img-partners">
@@ -431,12 +522,12 @@
                             </div>
                             <div class="item-img-partners">
                                 <span type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-                                    <img src="images/1200px-FRANCE_24_logo.svg.png" alt="">
+                                    <img src="images/kisspng-cnbc-arabiya-logo-of-nbc-business-5b399a99d48a53.2279454915305017858706-removebg-preview.png" alt="">
                                 </span>
                             </div>
                             <div class="item-img-partners">
                                 <span type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-                                    <img src="images/شعار_سي_إن_بي_سي_عربية.png">
+                                    <img src="images/قناة_العالم.png" alt="">
                                 </span>
                             </div>
                         </div>
@@ -718,6 +809,9 @@
                 <span class="sr-only">Loading...</span>
             </div>
         </section>
+
+
+
     </main>
     <footer class="mt-5" data-scroll-index="7">
         <section class="footer">
@@ -793,6 +887,7 @@
         </section>
     </footer>
 
+    <script src="js/fancybox.umd.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/wow.min.js"></script>
