@@ -498,9 +498,6 @@ body {
     width: 30px;
     border-radius: 40px;
 }
-
-
-
 .item-sec-titel-center{
     text-align: end;
     margin-top: 10px;
@@ -510,9 +507,6 @@ body {
     font-size: 17px;
     font-family: STC;
 }
-
-
-
 .item-img-partners{
     display: flex;
     justify-content: center;
@@ -664,58 +658,10 @@ footer hr{
     padding-top:15px;
 }
 
-
-/* .sec-2{
-    background: url(../images/bee-balogun-KGyzk-EvTwQ-unsplash.png);
-    background-position: center;
-    background-size: cover;
-    height: 545px;
-} */
 .nav-item {
     margin: 0 0px;
     
 }
-/* .item-text-sec-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 80vh;
-    text-align: end;
-    margin-top: -20px;
-} */
-/* .item-text-sec-2 h2{
-    color: #fff;
-    font-size: 34px;
-} */
-/* .item-text-sec-2 span{
-    color: #BAE3FF;
-    font-size: 22px;
-    margin-bottom: 15px;
-    line-height: 50px;
-}
-
-.sec-2 .owl-carousel .owl-dots{
-    padding: 0 15px;
-    text-align: center;
-    margin-top: 20px;
-    display: block;
-    position: absolute;
-    top:120px;
-    right:0;
-}
-.sec-2 .owl-carousel button.owl-dot{
-    height:15px ;
-    width: 15px;
-    background: #ddd;
-    display: block;
-    margin: 0 4px;
-    border-radius: 50%;
-}
-.sec-2 .owl-carousel button.owl-dot.active{
-    background: #F6830C;
-    height: 30px;
-    border-radius: 40px;
-} */
 .main-slider .owl-carousel button.owl-dot.active{
     height: 30px;
     width: 15px !important;
@@ -1081,7 +1027,7 @@ footer hr{
     }
 
     .slider-item figure figcaption h1 {
-        font-size: 25px !important;
+        font-size: 22px !important;
     }
 
     .play-btn {
@@ -1092,6 +1038,67 @@ footer hr{
         justify-content: center;
     }
 
+}
+@media (max-width:414px){
+    .item-sec-titel:hover:before{
+        left: 50px;
+    }
+    .item-sec-titel::before {
+        left: 60px;
+    }
+    .our-news .item-sec-titel::before {
+        width: 60px;
+        left: 20px;
+    }
+    .our-news .item-sec-titel:hover:before{
+        left: 15px;
+    }
+    
+    .advantages .item-sec-titel:hover:before{
+        left: 120px;
+    }
+    .partners .item-sec-titel:hover:before{
+        left: -15px;
+    }
+    .advantages .item-sec-titel::before{
+        width: 110px;
+        left: 130px;
+    }
+    .partners .item-sec-titel::before{
+        width: 60px;
+        left: -10px;
+    }
+    .effect {
+        top: 75px !important;
+        left: 76px !important;
+    }
+    .features .item-sec-titel:hover:before,
+    .business .item-sec-titel:hover:before{
+        left: 30px;
+    }
+    .features .item-sec-titel::before,
+    .business .item-sec-titel::before{
+        left: 40px;
+        width: 105px;
+    }
+    .item-img2-advantages p {
+        left: 24px;
+        font-size: 22px;
+    }
+    .item-img1-advantages p {
+        top: 158px !important;
+        left: 28px;
+        font-size: 22px;
+    }
+    .item-img3-advantages p {
+        top: 158px !important;
+        left: 28px;
+        font-size: 22px;
+    }
+    .footer {
+        height: 902px;
+        background-size: 730px;
+    }
 }
 @media (max-width:765px){
     .item-box-our-news{
