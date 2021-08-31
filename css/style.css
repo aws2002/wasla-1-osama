@@ -1099,6 +1099,9 @@ footer hr{
         height: 902px;
         background-size: 730px;
     }
+    .item-text-advantages {
+        margin-top: -550px !important;
+    }
 }
 @media (max-width:765px){
     .item-box-our-news{
