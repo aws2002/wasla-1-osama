@@ -1040,6 +1040,9 @@ footer hr{
 
 }
 @media (max-width:414px){
+    .slider-item figure figcaption h1 {
+        font-size: 20px !important;
+    }
     .item-sec-titel:hover:before{
         left: 50px;
     }
